@@ -13,6 +13,7 @@
 
     <modules>
         <module>zzj-oauth2</module>
+        <module>zzj-oauth2-web</module>
     </modules>
 
     <properties>
