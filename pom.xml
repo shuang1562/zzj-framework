@@ -20,6 +20,7 @@
     <modules>
         <module>zzj-oauth2</module>
         <module>zzj-oauth2-web</module>
+        <module>zzj-oauth2-mangement</module>
     </modules>
 
     <properties>
