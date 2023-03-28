@@ -1,15 +1,17 @@
 # DataSource Config
 spring:
+  # 此处默认是 h2 的数据库配置
   datasource:
     driver-class-name: org.h2.Driver
     schema: classpath:db/schema-h2.sql
     username: root
-    password: siw932%9)(623
+    password: wo24%$@^uw
     url: jdbc:h2:mem:testdb
   sql:
     init:
       schema-locations: classpath:db/schema-h2.sql
       data-locations: classpath:db/data-h2.sql
   h2:
+    # 支持 springBoot 网页内嵌 h2 数据库查看  http://localhost:8080/h2-console
     console:
       enabled: true
