@@ -15,3 +15,8 @@ spring:
     # 支持 springBoot 网页内嵌 h2 数据库查看  http://localhost:8080/h2-console
     console:
       enabled: true
+  security:
+    user:
+      name: user
+      # 如果不在此处设置 password，那么在项目启动的时候会默认生成一个 password. e.g: Using generated security password: cb17a51f-3554-482a-8df4-0da2a0f3c6f3
+      password: j8w^&k29V^

@@ -42,7 +42,7 @@ pom依赖：
 一种最简单的方式了。
 
 初始服务将会提供默认的数据库 h2，如果你有需要可以自行选择数据库，并进行配置。下面说下 h2 的访问：
-1. http://localhost:8080/h2-console 用户名/密码: user/控制台打印
+1. http://localhost:8080/h2-console 用户名/密码: user/j8w^&k29V^
 2. 按照 yml 中配置的 jdbcUrl 还有 用户名密码 进行 登录 springBoot 内嵌的 h2 数据库
 
 ## zzj-oauth2-management
