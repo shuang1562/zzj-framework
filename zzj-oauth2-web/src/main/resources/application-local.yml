@@ -4,12 +4,12 @@ spring:
     driver-class-name: org.h2.Driver
     schema: classpath:db/schema-h2.sql
     username: root
-    password: test
+    password: siw932%9)(623
+    url: jdbc:h2:mem:testdb
   sql:
     init:
       schema-locations: classpath:db/schema-h2.sql
       data-locations: classpath:db/data-h2.sql
-logging:
-  level:
-    org:
-      hibernate: debug
+  h2:
+    console:
+      enabled: true
