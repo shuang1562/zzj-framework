@@ -6,7 +6,7 @@ spring:
     schema: classpath:db/schema-h2.sql
     username: root
     password: wo24%$@^uw
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:testdb  # 不持久化，直接放到内存中
   sql:
     init:
       schema-locations: classpath:db/schema-h2.sql

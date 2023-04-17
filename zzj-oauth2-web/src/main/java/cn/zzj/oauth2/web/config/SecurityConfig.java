@@ -1,7 +1,6 @@
 package cn.zzj.oauth2.web.config;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -15,9 +14,6 @@ import static org.springframework.security.config.Customizer.withDefaults;
 @Slf4j
 @Configuration
 public class SecurityConfig {
-
-    @Value("${spring.h2.console.path}")
-    private String h2Path;
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
